@@ -1,0 +1,13 @@
+{
+    "tipoDocumento": "CC",
+    "firstName": "Alberto",
+    "lastName": "QA Bonbonite",
+    "gender": "Hombre",
+    "email": "qa.bonbonite.facturacion@mailinator.com",
+    "phone": "3001234567",
+    "countryCode": "CO",
+    "state": "Antioquía",
+    "city": "Medellín",
+    "address": "Calle 10 # 40-20",
+    "postcode": "050021"
+}

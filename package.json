@@ -1,0 +1,26 @@
+{
+    "name": "testing-q-vision",
+    "version": "1.0.0",
+    "description": "Automatizacion E2E del sitio web de Bon-bonite (WordPress + WooCommerce) con Cypress + Cucumber",
+    "scripts": {
+        "cy:open": "cypress open",
+        "cy:run": "cypress run",
+        "cy:run:registro": "cypress run --env tags=@CP-01",
+        "cy:run:datos": "cypress run --env tags=@CP-02",
+        "cy:run:compra": "cypress run --env tags=@CP-03",
+        "allure:clear": "rm -rf allure-results allure-report",
+        "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+        "cy:run:allure": "npm run allure:clear && cypress run"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+        "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+        "allure-commandline": "^2.34.1",
+        "allure-cypress": "^3.4.3",
+        "cypress": "^13.6.0",
+        "dotenv": "^16.4.5"
+    }
+}
