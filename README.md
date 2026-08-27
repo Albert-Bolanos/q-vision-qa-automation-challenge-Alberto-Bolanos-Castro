@@ -3,6 +3,8 @@
 Automatización E2E del sitio web de **Bon-bonite** (`https://www.bon-bonite.com/`, WordPress +
 WooCommerce) con **Cypress + Cucumber**.
 
+Generado por [`qa-copilot-kit`](../../qa-copilot-kit) — proyecto `projects/q-vision`.
+
 ## Requisitos
 
 - Node.js 18+
